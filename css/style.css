@@ -48,6 +48,7 @@ body{
     color: #3F3E46;
     font-weight: 600;
     font-size: 15px;
+    transition: all .5s;
 }
 
 .navbar button{
