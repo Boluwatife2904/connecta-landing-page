@@ -53,12 +53,29 @@ body{
 .navbar button{
     outline: none;
     border: none;
-    background: none;
 }
 
-.navbar button span{
-    font-size: 24px;
+.navbar .navbar-toggler .line{
+    background-color: #1D28CA;
+    border-radius: 100px;
+    height: 3px;
+    display: block;
+    margin-bottom: 4px;
+    margin-left: auto;
 }
+
+.navbar .navbar-toggler .line-1{
+    width: 22px;
+}
+
+.navbar .navbar-toggler .line-2{
+    width: 30px;
+}
+
+.navbar .navbar-toggler .line-3{
+    width: 22px;
+}
+
 
 /* MAIN HERO SECTION */
 .home-text .header-boxes{
